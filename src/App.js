@@ -1,8 +1,10 @@
 import React from "react";
-import HelloReact from "./components/HelloReact";
+import Main from './components/Main';
 
 function App() {
-  return <HelloReact />;
+  return (
+    <Main />
+  );
 }
 
 export default App;
